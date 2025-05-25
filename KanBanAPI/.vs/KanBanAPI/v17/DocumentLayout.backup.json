@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\models\\kanbantask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\models\\kanbantask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\models\\updatetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\models\\updatetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\models\\editboardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\models\\editboardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\models\\editboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\models\\editboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\models\\addboardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\models\\addboardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|d:\\project_backend\\kanbanboardapi\\kanbanapi\\kanbanapi\\models\\addtaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7DF963-E0DF-48C7-8A99-204A99222E8A}|KanBanAPI\\KanBanAPI.csproj|solutionrelative:kanbanapi\\models\\addtaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateTaskRequest.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\UpdateTaskRequest.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Models\\UpdateTaskRequest.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\UpdateTaskRequest.cs",
+              "RelativeToolTip": "KanBanAPI\\Models\\UpdateTaskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:26:38.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Models\\Board.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\Board.cs",
+              "RelativeToolTip": "KanBanAPI\\Models\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T10:35:28.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditBoard.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\EditBoard.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Models\\EditBoard.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\EditBoard.cs",
+              "RelativeToolTip": "KanBanAPI\\Models\\EditBoard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:14:33.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Controllers\\TaskController.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "KanBanAPI\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAArwFsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:35:21.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoardController.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Controllers\\BoardController.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Controllers\\BoardController.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Controllers\\BoardController.cs",
+              "RelativeToolTip": "KanBanAPI\\Controllers\\BoardController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwFwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:21:01.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditBoardRequest.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\EditBoardRequest.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Models\\EditBoardRequest.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\EditBoardRequest.cs",
+              "RelativeToolTip": "KanBanAPI\\Models\\EditBoardRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:18:35.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddTaskRequest.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\AddTaskRequest.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Models\\AddTaskRequest.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\AddTaskRequest.cs",
+              "RelativeToolTip": "KanBanAPI\\Models\\AddTaskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:11:35.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KanbanTask.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\KanbanTask.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Models\\KanbanTask.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\KanbanTask.cs",
+              "RelativeToolTip": "KanBanAPI\\Models\\KanbanTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T10:03:46.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddBoardRequest.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\AddBoardRequest.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Models\\AddBoardRequest.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Models\\AddBoardRequest.cs",
+              "RelativeToolTip": "KanBanAPI\\Models\\AddBoardRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T08:49:26.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "KanBanAPI\\Data\\DataContext.cs",
+              "ToolTip": "D:\\Project_Backend\\KanBanBoardAPI\\KanBanAPI\\KanBanAPI\\Data\\DataContext.cs",
+              "RelativeToolTip": "KanBanAPI\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T10:07:59.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

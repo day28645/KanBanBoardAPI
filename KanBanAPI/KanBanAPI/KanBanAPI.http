@@ -1,0 +1,6 @@
+@KanBanAPI_HostAddress = http://localhost:5093
+
+GET {{KanBanAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

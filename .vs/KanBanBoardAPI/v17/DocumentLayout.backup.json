@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\kanbanboardapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|solutionrelative:kanbanboardapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B798E8-8F8A-45CD-ADE5-B0B027C62183}|BlazorApp\\BlazorApp.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\blazorapp\\pages\\user\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B798E8-8F8A-45CD-ADE5-B0B027C62183}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\user\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B798E8-8F8A-45CD-ADE5-B0B027C62183}|BlazorApp\\BlazorApp.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\blazorapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B798E8-8F8A-45CD-ADE5-B0B027C62183}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\kanbanboardapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|solutionrelative:kanbanboardapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\kanbanboardapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|solutionrelative:kanbanboardapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\kanbanboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|solutionrelative:kanbanboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\kanbanboardapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|solutionrelative:kanbanboardapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|d:\\project_backend\\kanbanboard\\kanbanboardapi\\kanbanboardapi\\migrations\\20250523034843_createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299855E2-2A58-49A6-893D-6C48DED6EEDE}|KanBanBoardAPI\\KanBanBoardAPI.csproj|solutionrelative:kanbanboardapi\\migrations\\20250523034843_createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\BlazorApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Models\\User.cs",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\BlazorApp\\Models\\User.cs",
+              "RelativeToolTip": "BlazorApp\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:16:04.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\BlazorApp\\Pages\\User\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\User\\Index.razor",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\BlazorApp\\Pages\\User\\Index.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\User\\Index.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T09:06:30.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "KanBanBoardAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "KanBanBoardAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T04:31:04.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "KanBanBoardAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "KanBanBoardAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswFkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:20:47.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "KanBanBoardAPI\\Models\\User.cs",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Models\\User.cs",
+              "RelativeToolTip": "KanBanBoardAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:43:00.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250523034843_createUser.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Migrations\\20250523034843_createUser.cs",
+              "RelativeDocumentMoniker": "KanBanBoardAPI\\Migrations\\20250523034843_createUser.cs",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Migrations\\20250523034843_createUser.cs",
+              "RelativeToolTip": "KanBanBoardAPI\\Migrations\\20250523034843_createUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:48:43.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "KanBanBoardAPI\\Data\\DataContext.cs",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Data\\DataContext.cs",
+              "RelativeToolTip": "KanBanBoardAPI\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:36:35.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Program.cs",
+              "RelativeDocumentMoniker": "KanBanBoardAPI\\Program.cs",
+              "ToolTip": "D:\\Project_Backend\\KanbanBoard\\KanBanBoardAPI\\KanBanBoardAPI\\Program.cs",
+              "RelativeToolTip": "KanBanBoardAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:35:35.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

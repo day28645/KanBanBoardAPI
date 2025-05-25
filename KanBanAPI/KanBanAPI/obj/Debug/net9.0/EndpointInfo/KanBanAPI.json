@@ -1,0 +1,758 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "KanBanAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Board/GetBoardsAll": {
+      "get": {
+        "tags": [
+          "Board"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Board"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Board"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Board"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Board/{id}": {
+      "get": {
+        "tags": [
+          "Board"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Board"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateBoardRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateBoardRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateBoardRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Board"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Board/CreateBoard": {
+      "post": {
+        "tags": [
+          "Board"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddBoardRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddBoardRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddBoardRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Login/CreateLogin": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Task/GetTasksAll": {
+      "get": {
+        "tags": [
+          "Task"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KanbanTask"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KanbanTask"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KanbanTask"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Task/{id}": {
+      "get": {
+        "tags": [
+          "Task"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Task"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTaskRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTaskRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTaskRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Task"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Task/createTask": {
+      "post": {
+        "tags": [
+          "Task"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddTaskRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddTaskRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddTaskRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/CreateUser": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddBoardRequest": {
+        "type": "object",
+        "properties": {
+          "boardName": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddTaskRequest": {
+        "type": "object",
+        "properties": {
+          "taskName": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Board": {
+        "type": "object",
+        "properties": {
+          "board_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "boardName": {
+            "maxLength": 20,
+            "type": "string",
+            "nullable": true
+          },
+          "createDateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "users": {
+            "$ref": "#/components/schemas/User"
+          },
+          "editBoards": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EditBoard"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EditBoard": {
+        "type": "object",
+        "properties": {
+          "editId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "editDateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "board_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "users": {
+            "$ref": "#/components/schemas/User"
+          },
+          "boards": {
+            "$ref": "#/components/schemas/Board"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EditTask": {
+        "type": "object",
+        "properties": {
+          "editTaskId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "editDateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "task_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "users": {
+            "$ref": "#/components/schemas/User"
+          },
+          "kanbanTasks": {
+            "$ref": "#/components/schemas/KanbanTask"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KanbanTask": {
+        "type": "object",
+        "properties": {
+          "task_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taskName": {
+            "maxLength": 20,
+            "type": "string",
+            "nullable": true
+          },
+          "createDateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "editTasks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EditTask"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "users": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Login": {
+        "required": [
+          "id_Card",
+          "loginDateTime"
+        ],
+        "type": "object",
+        "properties": {
+          "loginId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "loginDateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "id_Card": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "users": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwords": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateBoardRequest": {
+        "type": "object",
+        "properties": {
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "boardName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTaskRequest": {
+        "type": "object",
+        "properties": {
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "taskName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "required": [
+          "email",
+          "firstname",
+          "lastname",
+          "passwords",
+          "phone"
+        ],
+        "type": "object",
+        "properties": {
+          "id_Card": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwords": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "firstname": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastname": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "phone": {
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
+          },
+          "logins": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Login"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "createBoards": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Board"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "createTasks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KanbanTask"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "editBoards": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EditBoard"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "boards": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Board"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "editTasks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EditTask"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "kanbanTasks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KanbanTask"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

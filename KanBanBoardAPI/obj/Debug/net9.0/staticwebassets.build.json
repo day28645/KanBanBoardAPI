@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "jmVags18lR6XpQxt33rT5+2ljExUSNCMyLnoZuM99dg=",
+  "Source": "KanBanBoardAPI",
+  "BasePath": "_content/KanBanBoardAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
